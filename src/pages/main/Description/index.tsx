@@ -1,9 +1,9 @@
-import { Heading, MainContainer, Use, Text } from "./styles";
+import { Heading, MainContainer, Title, Text } from "./styles";
 
 const Description = () => {
   return (
     <MainContainer>
-      <Use>BUILT FOR MODERN USE</Use>
+      <Title>BUILT FOR MODERN USE</Title>
       <Heading>
         Smarter meetings, all <br /> in one place
       </Heading>

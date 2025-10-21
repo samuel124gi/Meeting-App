@@ -1,13 +1,15 @@
-import Fourth from "../Fourth";
 import {
   ButtonSmallText,
   ButtonText,
+  Circle,
   Container,
   Heading,
   Image,
   InnerContainer,
+  Line,
   MainContainer,
   Text,
+  TopContainer,
 } from "./styles";
 import background from "../../../assets/images/image-footer.jpg";
 import Button from "../../../component/Button";
@@ -15,7 +17,10 @@ import Button from "../../../component/Button";
 const Footer = () => {
   return (
     <MainContainer>
-      <Fourth />
+      <TopContainer>
+        <Line />
+        <Circle>02</Circle>
+      </TopContainer>
       <Image src={background} />
       <Container />
       <InnerContainer>
