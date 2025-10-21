@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
   text-align: center;
 `;
 
-export const Use = styled.h1`
+export const Title = styled.h1`
   font-size: 16px;
   line-height: 110%;
   letter-spacing: 0px;
